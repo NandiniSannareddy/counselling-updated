@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Info Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>Student Info Form</h2>
+    <div class="form-container">
+        
+
+        <!-- First Table: General Info -->
+        <table class="table-one">
+            <!-- Combined row with Course & Semester, Academic Year, RTF, MQ, Any Other -->
+            <tr class="row1">
+                <td>Course & Semester:</td>
+                <td><input type="text" placeholder="I B.Tech - II Sem."></td>
+                <td>Academic Year:</td>
+                <td><input type="text" placeholder="23-24"></td>
+                <td>RTF <input type="radio" name="seat"></td>
+                <td>MQ <input type="radio" name="seat"></td>
+                <td>Any Other <input type="radio" name="seat"></td>
+            </tr>
+
+            <!-- Name of Counselor & Student Name -->
+            <tr>
+                <td>Name of Counselor:</td>
+                <td colspan="9"><input type="text" placeholder="Counselor name"></td>
+            </tr>
+            <tr>
+                <td>Student's Name:</td>
+                <td colspan="9"><input type="text" placeholder="student name"></td>
+            </tr>
+
+            <!-- Father's Phone & Student's Phone -->
+            <tr>
+                <td>Student's Phone:</td>
+                <td colspan="2"><input type="text" placeholder="phone number"></td>
+                <td>Father's Phone:</td>
+                <td colspan="7"><input type="text" placeholder="phone number"></td>
+            </tr>
+        </table>
+
+        <!-- Second Table: Accommodation Info -->
+       
+        <table class="table-two">
+            <tr>
+                <td>Student's Residence:</td>
+                <td colspan="2">Hostel <input type="radio" name="transport"></td>
+                <td>Day Scholar
+                <input type="radio" name="transport"></td>
+                <td>College Bus <input type="radio" name="transport"></td>
+                <td>RTC Bus <input type="radio" name="transport"></td>
+              
+            </tr>
+            <tr>
+                <td>NBKRIST Hostel Name:</td>
+                <td colspan="3"><input type="text" placeholder="hostel name"></td>
+                <td>Room No:</td>
+                <td colspan="2"><input type="text" placeholder="Room No"></td>
+            </tr>
+
+            <!-- Subsection: Hostel Roommates 
+            <tr>
+                <td rowspan="3">Hostel Roommates:</td>
+                <td>1</td>
+                <td colspan="6"><input type="text" placeholder="Roll No"></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td colspan="6"><input type="text" placeholder="Roll No"></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td colspan="6"><input type="text" placeholder="Roll No"></td>
+            </tr>-->
+
+            <!-- Subsection: Transportation Info -->
+            <tr>
+                <td colspan="9"> </td>
+            </tr>
+            <tr>
+                <td>College Bus Route</td>
+                <td colspan="3"><input type="text" placeholder="Bus Route"></td>
+                <td>Bus No</td>
+                <td colspan="2"><input type="text" placeholder="Bus No"></td>
+            </tr>
+            <tr>
+                <td>RTC Bus / Two Wheeler Travel Place</td>
+                <td colspan="7"><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Two Wheeler Make & Number</td>
+                <td colspan="7"><input type="text"></td>
+            </tr>
+
+            <!-- Subsection: Day Scholar Info -->
+            <tr>
+                <td>Day Scholar Address:</td>
+                <td colspan="7"><textarea placeholder="S/o, near post office, Vidyanagar, Tirupati"></textarea></td>
+            </tr>
+            
+        </table>
+    </div>
+</body>
+</html>
